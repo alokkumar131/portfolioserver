@@ -3,12 +3,18 @@
 var express = require('express')
 var bodyParser = require('body-parser');
 var nodemailer = require('nodemailer');
+var cors = require('cors');
+
 var app = express();
 const port = process.env.PORT || 3000;
 
 
-app.use(bodyParser.json()); // support json encoded bodies
-app.use(bodyParser.urlencoded({ extended: true })); //
+app.use(bodyParser.urlencoded({ extended: false }));
+app.use(bodyParser.json()); 
+app.use(bodyParser.raw());
+app.use(cors());
+
+
 
 app.get('/',(req,res)=>{
     res.send('<h1>portfolio server running</h1>')
@@ -16,6 +22,7 @@ app.get('/',(req,res)=>{
 
 
 app.post('/api/userform', function(req, res) {
+
     const userData = {
          fname : req.body.firstname,
          lname : req.body.lastname,
@@ -25,6 +32,7 @@ app.post('/api/userform', function(req, res) {
     }
 
     res.send(userData);
+
     var transporter = nodemailer.createTransport({
         host: 'smtp.gmail.com',
         secure: false,   
