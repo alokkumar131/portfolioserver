@@ -24,8 +24,7 @@ app.get('/',(req,res)=>{
 app.post('/api/userform', function(req, res) {
 
     const userData = {
-         fname : req.body.firstname,
-         lname : req.body.lastname,
+         name : req.body.name,
          email : req.body.email,
          sub :req.body.subject,
          message: req.body.message,
@@ -66,7 +65,7 @@ app.post('/api/userform', function(req, res) {
                 <tr >
                   <td align="left" valign="top" bgcolor="ff6600"  align="center"
                    style="padding:20px;font-family:Arial, Helvetica, sans-serif;color: #fff;">
-                      <h3>Name: ${userData.fname} ${userData.lname}</h3>
+                      <h3>Name: ${userData.name}</h3>
                       <h3 style="color:#fff">Email: ${userData.email}</h3>
                       <h3>Message: </h3>
                       <p>${userData.message}</p>
