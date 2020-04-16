@@ -17,7 +17,7 @@ app.use(cors());
 
 
 app.get('/',(req,res)=>{
-    res.send('<h1>portfolio server running</h1>')
+    res.send(graphics.json)
 })
 
 
