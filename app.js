@@ -4,10 +4,12 @@ var express = require('express')
 var bodyParser = require('body-parser');
 var nodemailer = require('nodemailer');
 var cors = require('cors');
+ var fs = require("fs");
 
 var app = express();
 const port = process.env.PORT || 3000;
-
+ var contents = fs.readFileSync("graphics.json");
+ var jsonContent = JSON.parse(contents);
 
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json()); 
@@ -17,7 +19,7 @@ app.use(cors());
 
 
 app.get('/',(req,res)=>{
-    res.send(graphics.json)
+    res.send(jsonContent);
 })
 
 
