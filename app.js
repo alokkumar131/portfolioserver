@@ -12,10 +12,10 @@ const port = process.env.PORT || 3000;
  var jsonContent = JSON.parse(contents);
 
  var contents1 = fs.readFileSync("ui.json");
- var jsonContent1 = JSON.parse(contents);
+ var jsonContent1 = JSON.parse(contents1);
 
  var contents2 = fs.readFileSync("web.json");
- var jsonContent2 = JSON.parse(contents);
+ var jsonContent2 = JSON.parse(contents2);
 
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json()); 
