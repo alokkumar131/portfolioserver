@@ -27,10 +27,10 @@ app.use(cors());
 app.get('/',(req,res)=>{
     res.send(jsonContent);
 })
-app.get('/uidesigns',(req,res)=>{
+app.get('/ui',(req,res)=>{
     res.send(jsonContent1);
 })
-app.get('/webtemp',(req,res)=>{
+app.get('/web',(req,res)=>{
     res.send(jsonContent2);
 })
 
