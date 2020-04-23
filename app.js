@@ -11,6 +11,12 @@ const port = process.env.PORT || 3000;
  var contents = fs.readFileSync("graphics.json");
  var jsonContent = JSON.parse(contents);
 
+ var contents1 = fs.readFileSync("ui.json");
+ var jsonContent1 = JSON.parse(contents);
+
+ var contents2 = fs.readFileSync("web.json");
+ var jsonContent2 = JSON.parse(contents);
+
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json()); 
 app.use(bodyParser.raw());
@@ -20,6 +26,12 @@ app.use(cors());
 
 app.get('/',(req,res)=>{
     res.send(jsonContent);
+})
+app.get('/uidesigns',(req,res)=>{
+    res.send(jsonContent1);
+})
+app.get('/webtemp',(req,res)=>{
+    res.send(jsonContent2);
 })
 
 
