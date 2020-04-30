@@ -1,17 +1,27 @@
 [{
-    "thumb": "../img/graphics/01.png",
-    "main": "../img/graphics/01.png",
-    "caption":"yo yo"
+    "thumb": "../img/web/001.png",
+    "main": "../img/web/01.png",
+    "caption":"Editionguard"
   }, {
-      "thumb": "../img/graphics/01.png",
-    "main": "../img/graphics/01.png",
-    "caption":"yo yo"
+    "thumb": "../img/web/002.png",
+    "main": "../img/web/02.png",
+    "caption":"Smart Training"
   }, {
-    "thumb": "../img/graphics/01.png",
-    "main": "../img/graphics/01.png",
-    "caption":"yo yo"
+    "thumb": "../img/web/003.png",
+    "main": "../img/web/03.png",
+    "caption":"AK Designs"
   }, {
-    "thumb": "../img/graphics/01.png",
-    "main": "../img/graphics/01.png",
-    "caption":"yo yo"
+    "thumb": "../img/web/004.png",
+    "main": "../img/web/04.png",
+    "caption":"Old Shop"
+  },
+ {
+    "thumb": "../img/web/005.png",
+    "main": "../img/web/05.png",
+    "caption":"Old Shop"
+  },
+ {
+    "thumb": "../img/web/006.png",
+    "main": "../img/web/06.png",
+    "caption":"WStudio"
   }]
