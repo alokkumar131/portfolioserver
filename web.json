@@ -1,17 +1,27 @@
 [{
-    "thumb": "../img/graphics/01.png",
-    "main": "../img/graphics/01.png",
-    "caption":"yo yo"
+    "thumb": "../img/ui/01.png",
+    "main": "https://alokkumar131.github.io/zzom/",
+    "caption":"Zzom"
   }, {
-      "thumb": "../img/graphics/01.png",
-    "main": "../img/graphics/01.png",
-    "caption":"yo yo"
+    "thumb": "../img/ui/02.png",
+    "main": "https://alokkumar131.github.io/news/",
+    "caption":"News Grid"
   }, {
-    "thumb": "../img/graphics/01.png",
-    "main": "../img/graphics/01.png",
-    "caption":"yo yo"
+    "thumb": "../img/ui/03.png",
+    "main": "https://alokkumar131.github.io/portfolio/",
+    "caption":"Portfolio"
   }, {
-    "thumb": "../img/graphics/01.png",
-    "main": "../img/graphics/01.png",
-    "caption":"yo yo"
+    "thumb": "../img/ui/04.png",
+    "main": "https://alokkumar131.github.io/natours/",
+    "caption":"Natours"
+  },
+ {
+    "thumb": "../img/ui/05.png",
+    "main": "https://alokkumar131.github.io/roar-bikes/",
+    "caption":"Roar Bikes"
+  },
+ {
+    "thumb": "../img/ui/06.png",
+    "main": "https://alokkumar131.github.io/adare-resturant/",
+    "caption":"Adare-resturant"
   }]
