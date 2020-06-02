@@ -15,13 +15,38 @@
     "main": "https://alokkumar131.github.io/natours/",
     "caption":"Natours"
   },
- {
+{
     "thumb": "../img/ui/05.png",
+    "main": "https://alokkumar131.github.io/adminui/",
+    "caption":"Admin UI"
+  },
+{
+    "thumb": "../img/ui/06.png",
+    "main": "https://alokkumar131.github.io/miz/",
+    "caption":"Miz"
+  },
+{
+    "thumb": "../img/ui/07.png",
+    "main": "https://alokkumar131.github.io/edge/",
+    "caption":"Edge"
+  },
+{
+    "thumb": "../img/ui/08.png",
+    "main": "https://alokkumar131.github.io/weblab/",
+    "caption":"WebLab"
+  },
+{
+    "thumb": "../img/ui/09.png",
+    "main": "https://alokkumar131.github.io/hbt/",
+    "caption":"Hotel"
+  },
+ {
+    "thumb": "../img/ui/10.png",
     "main": "https://alokkumar131.github.io/roar-bikes/",
     "caption":"Roar Bikes"
   },
  {
-    "thumb": "../img/ui/06.png",
+    "thumb": "../img/ui/11.png",
     "main": "https://alokkumar131.github.io/adare-resturant/",
     "caption":"Adare-resturant"
   }]
