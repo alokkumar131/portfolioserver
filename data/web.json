@@ -40,13 +40,23 @@
     "main": "https://alokkumar131.github.io/hbt/",
     "caption":"Hotel"
   },
- {
+  {
     "thumb": "../img/ui/10.png",
+    "main": "https://alokkumar131.github.io/talentica_task_1/",
+    "caption":"Talentica"
+  },
+ {
+    "thumb": "../img/ui/11.png",
+    "main": "https://alokkumar131.github.io/indegene/",
+    "caption":"Indegene"
+  }
+ {
+    "thumb": "../img/ui/12.png",
     "main": "https://alokkumar131.github.io/roar-bikes/",
     "caption":"Roar Bikes"
   },
  {
-    "thumb": "../img/ui/11.png",
+    "thumb": "../img/ui/13.png",
     "main": "https://alokkumar131.github.io/adare-resturant/",
     "caption":"Adare-resturant"
   }]
